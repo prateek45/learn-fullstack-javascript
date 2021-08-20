@@ -1,0 +1,42 @@
+{
+  "name": "learn-fullstack-javascript",
+  "version": "1.0.0",
+  "description": "Full Stack Web Dev in JS with MongoDB, Node JS and React JS",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node server.js --ignore public/",
+    "dev": "webpack -wd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prateek45/learn-fullstack-javascript.git"
+  },
+  "author": "Prateek (Guidance: Sameer Buna)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/prateek45/learn-fullstack-javascript/issues"
+  },
+  "homepage": "https://github.com/prateek45/learn-fullstack-javascript#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^4.1.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/node": "^7.14.9",
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-react": "^7.14.5",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "eslint": "^7.32.0",
+    "eslint-plugin-react": "^7.24.0",
+    "nodemon": "^2.0.12",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0"
+  }
+}
