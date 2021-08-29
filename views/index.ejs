@@ -1,5 +1,7 @@
 <%- include('header') -%>
-    <h1><%- content %></h1>
+    <div id="root">
+        <h1><%- content %></h1>
+    </div>
     <p>EJS are regular html files but we can embed javascript in them</p>
     <%= Math.random() %>
-    <%- include('footer') -%>
+<%- include('footer') -%>
